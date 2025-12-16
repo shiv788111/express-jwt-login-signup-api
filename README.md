@@ -44,15 +44,18 @@ LOGIN_API
 
 ├── controller
 
- ├── login.controller.js # Login & JWT token generation
+   ├── login.controller.js # Login & JWT token generation
 
-│ ├── logoutController.js # Logout logic
 
-│ └── profileController.js # Protected profile/dashboard
-│
+ ├── logoutController.js # Logout logic
+
+
+ └── profileController.js # Protected profile/dashboard
+
+ 
 ├── middleware
 
-│ └── authentication.js # JWT verification middleware
+   └── authentication.js # JWT verification middleware
 │
 ├── routes
 
