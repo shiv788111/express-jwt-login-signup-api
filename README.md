@@ -38,23 +38,34 @@ This project implements **Signup, Login, JWT Token Generation, Authentication Mi
 LOGIN_API
 │
 ├── config
+
 │ └── db.js # MySQL database connection
 │
 ├── controller
+
 │ ├── login.controller.js # Login & JWT token generation
+
 │ ├── logoutController.js # Logout logic
+
 │ └── profileController.js # Protected profile/dashboard
 │
 ├── middleware
+
 │ └── authentication.js # JWT verification middleware
 │
 ├── routes
+
 │ ├── loginRoutes.js # Login routes
+
 │ ├── logoutRoutes.js # Logout routes
+
 │ └── profileRoutes.js # Protected routes
 │
 ├── .env # Environment variables
+
 ├── server.js # App entry point
+
 ├── package.json
+
 └── node_modules
 
