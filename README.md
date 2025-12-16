@@ -1,7 +1,7 @@
 # Express MySQL JWT Authentication API
 
 A secure and scalable authentication REST API built using **Node.js**, **Express.js**, and **MySQL**.  
-This project implements **Signup, Login, JWT Token Generation, Authentication Middleware, Logout, Token Verification**, and **Protected Dashboard Access**.
+This project implements **Signup, Login, JWT Token Generation, Authentication Middleware, Logout, Token Verification**, **Protected Dashboard Access**, and **API documentation using Swagger UI**.
 
 ---
 
@@ -9,15 +9,16 @@ This project implements **Signup, Login, JWT Token Generation, Authentication Mi
 
 - User Signup (Register)
 - User Login
-- password Hashing using bcrypt
-- JWT Token Generation
-- Authentication & Authorization Middleware
-- Token Verification API
-- Logout Functionality
-- Protected Dashboard Route
-- MySQL Database Integration
-- Secure Password Handling
-- RESTful API Architecture
+- Password hashing using bcrypt
+- JWT token generation
+- Authentication & Authorization middleware
+- Token verification API
+- Logout functionality
+- Protected dashboard route
+- MySQL database integration
+- Secure password handling
+- RESTful API architecture
+- 📄 **Interactive API documentation using Swagger UI**
 
 ---
 
@@ -29,9 +30,8 @@ This project implements **Signup, Login, JWT Token Generation, Authentication Mi
 - **JWT (JSON Web Token)**
 - **bcrypt**
 - **dotenv**
+- **Swagger UI (API Documentation)**
 - **Postman (API Testing)**
-
----
 
 ## 📂 Project Structure
 
