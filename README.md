@@ -40,10 +40,11 @@ LOGIN_API
 ├── config
 
 │ └── db.js # MySQL database connection
-│
+
+
 ├── controller
 
-│ ├── login.controller.js # Login & JWT token generation
+ ├── login.controller.js # Login & JWT token generation
 
 │ ├── logoutController.js # Logout logic
 
