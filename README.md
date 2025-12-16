@@ -37,6 +37,7 @@ This project implements **Signup, Login, JWT Token Generation, Authentication Mi
 
 LOGIN_API
 │
+
 ├── config
 
 │ └── db.js # MySQL database connection
