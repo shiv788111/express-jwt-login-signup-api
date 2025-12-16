@@ -56,15 +56,19 @@ LOGIN_API
 ├── middleware
 
    └── authentication.js # JWT verification middleware
-│
+
+
 ├── routes
 
-│ ├── loginRoutes.js # Login routes
 
-│ ├── logoutRoutes.js # Logout routes
+  ├── loginRoutes.js # Login routes
 
-│ └── profileRoutes.js # Protected routes
-│
+ ├── logoutRoutes.js # Logout routes
+
+ └── profileRoutes.js # Protected routes
+
+
+
 ├── .env # Environment variables
 
 ├── server.js # App entry point
